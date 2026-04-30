@@ -1,0 +1,49 @@
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+build/
+bld/
+[Bb]uilds/
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+[Tt]est[Rr]esult/
+[Tt]est/[Bb]in/
+[Tt]est/[Oo]bj/
+
+# SonarQube
+.sonarqube/
+
+# EF Core - keep migrations but ignore Designer files
+**/Migrations/*Designer.cs
+
+# Logs
+*.log
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+
+# NuGet
+.nuget/
+
+# Rider
+.idea/
+
+# Mac
+.DS_Store

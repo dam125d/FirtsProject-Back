@@ -1,0 +1,6 @@
+@Intap.FirstProject.API_HostAddress = http://localhost:5007
+
+GET {{Intap.FirstProject.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
