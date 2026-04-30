@@ -1,28 +1,61 @@
-# Visual Studio / VS Code
-.vs/
-.vscode/
-*.suo
-*.user
-*.sln.docstates
-
 # Build results
-[Bb]in/
-[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
 x64/
 x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 build/
 bld/
 [Bb]uilds/
+wwwroot/lib/
+
+# Visual Studio / VS Code / IDE
+.vs/
+.vscode/
+*.code-workspace
+.idea/
+*.swp
+*.swo
+.localhistory/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # .NET
 project.lock.json
 project.fragment.lock.json
 artifacts/
 
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+nuget.config
+
 # Test results
 [Tt]est[Rr]esult/
 [Tt]est/[Bb]in/
 [Tt]est/[Oo]bj/
+TestResults/
+*.trx
+*.coverage
 
 # SonarQube
 .sonarqube/
@@ -30,27 +63,30 @@ artifacts/
 # EF Core - keep migrations but ignore Designer files
 **/Migrations/*Designer.cs
 
+# Entity Framework
+*.db
+*.db-shm
+*.db-wal
+
 # Logs
 *.log
+logs/
 
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
+# Environment files
+.env
+.env.local
+appsettings.Development.json
 
-# NuGet
-.nuget/
-
-# Rider
-.idea/
-
-# Mac
+# OS files
+Thumbs.db
 .DS_Store
+
+# Temporary files
+*.tmp
+temp/
 
 # Project-specific ignores
 docs/
-temp/
 tests-e2e/
 tests-selenium/
 sonar-*.ps1
