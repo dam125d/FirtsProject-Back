@@ -47,3 +47,13 @@ artifacts/
 
 # Mac
 .DS_Store
+
+# Project-specific ignores
+docs/
+temp/
+tests-e2e/
+tests-selenium/
+sonar-*.ps1
+sonar-*.sh
+sonar-issues.json
+sonar-report.ps1
